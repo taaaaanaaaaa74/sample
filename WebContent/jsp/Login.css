@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("https://illust.download/wp-content/uploads/edd/2016/05/background12-768x543.jpg");
+	}
+
+.LOGIN{
+	text-align: center;
+	border:dotted 4px #9D50BB;
+  padding: 20px;
+  line-height: 1%;
+  display: block;
+	background-color: #ffffff;
+    width:200px;
+}
+.LOGIN{
+	margin: 10px;
+	margin:0 auto;
+}
+.title{
+	 position: relative;
+  background: repeating-linear-gradient(-45deg, rgba(139,198,202,.3), rgba(139,198,202,.3) 10px, #fff 0, #fff 20px);
+  padding: 1em;
+  color: #65513f;
+}
+
+.title{
+	position: relative;
+	text-align: center;
+}
+
+.NP{
+	text-align:center;
+	font-family: "Impact",sans-serif;
+}
+
+.LoginB{
+	display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px #668ad8;
+  text-align: center;
+  overflow: hidden;
+  transition: .6s;
+}
+.LoginB:hover {
+	  -webkit-transform: rotateY(360deg);
+  	transform: rotateY(360deg);
+
+}
+.LOGINBB{
+	position: relative;
+  z-index: 2;
+  background-color: #0080ff;
+  border: 2px solid #ffffff;
+  color: #fff;
+  line-height: 50px;
+}
+.LOGINBB:hover {
+  background-color: #ffff00;
+  border-color: #59b1eb;
+  color: #59b1eb;
+}
+.LOGINBB::before,
+.LOGINBB::after {
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #0080ff;
+}
+.LOGINBB:before {
+  right: 0;
+}
+.LOGINBB:after {
+  left: 0;
+}
+.button:hover::before,
+.button:hover::after {
+  width: 0;
+  background-color: #59b1eb;
+}

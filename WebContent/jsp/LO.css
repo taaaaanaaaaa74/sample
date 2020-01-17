@@ -1,0 +1,95 @@
+@charset "UTF-8";
+body {
+	text-align:center;
+	width:100%;
+	background-image: url("C:/Users/Education/Desktop/tk.jpg");
+}
+
+.sk{
+	display:inline-block;
+
+  position: relative;
+  color: #333;
+  display: inline-block;
+  margin: 47px 0;
+  text-shadow: 0 0 2px white;
+}
+.sk:before {
+  content: "";
+  position: absolute;
+  background: #a9e1ff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 50%;
+  border: dashed 1px white;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  box-shadow: 0px 0px 0px 5px #a9e1ff;
+}
+.select{
+	  margin-left: auto;
+      margin-right: auto;
+}
+
+.kt{
+	  margin-left: auto;
+              margin-right: auto;
+	display: inline block;
+  text-decoration: none;
+  height:35px;
+  width: 140px;
+  line-height: 37px;
+  text-align: center;
+  color: #fff;
+  background: #fbd0f5;
+  border-radius: 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.kt:hover{
+  color: #ff0080;
+  border: dashed 1px #ff0080;
+  background: none;
+}
+.kt:active{
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+.lo{
+margin-left: auto;
+	margin-right: auto;
+	display: inline block;
+  text-decoration: none;
+  height:35px;
+  width: 120px;
+  line-height: 37px;
+  text-align: center;
+  color: #fff;
+  background: #ff9664;
+  border-radius: 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.lo:hover{
+  color: #ff0000;
+  border: dashed 1px #ff0000;
+  background: none;
+}
+.lo:active{
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+}

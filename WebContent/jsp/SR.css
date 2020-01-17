@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.teble table, td, th {
+	 border-collapse: collapse;
+    border:1px solid #333;
+}
+.box h4{
+	 background: linear-gradient(transparent 40%, #66FFCC 40%);
+	 display:inline-block;
+}
